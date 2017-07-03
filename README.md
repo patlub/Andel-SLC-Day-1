@@ -14,7 +14,7 @@ n representing the upper limit
 Working installation of python 3. if you don't, you can refer to this
 [Intall Python 3](https://www.python.org/downloads/)
 
-##Usage
+## Usage
 
 import it first:
 
