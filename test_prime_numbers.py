@@ -1,6 +1,7 @@
 import unittest
 from prime_numbers import generate_primes
 
+
 class PrimeNumbersTestCase(unittest.TestCase):
     def test_non_integer_argument(self):
         """Should raise a TypeRoor for non integer arg"""
@@ -21,6 +22,16 @@ class PrimeNumbersTestCase(unittest.TestCase):
     def test_for_primes_between_0_and_10(self):
         """Should return [2, 3, 5, 7]"""
         self.assertEquals(generate_primes(10), [2, 3, 5, 7])
+
+    def test_for_primes_between_0_and_20(self):
+        """Should return [2, 3, 5, 7]"""
+        self.assertEquals(generate_primes(20),
+                          [2, 3, 5, 7, 11, 13, 17, 19])
+
+    def test_for_primes_between_0_and_negative_5(self):
+        """Should return [2, 3, 5, 7]"""
+        self.assertEquals(generate_primes(-5), [])
+
 
 if __name__ == '__main__':
     unittest.main()

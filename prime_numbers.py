@@ -1,4 +1,4 @@
-def generate_primes(n):
+def generate_primes(n) -> list:
     """
     Function to generate prime numbers form 0 to n
     Args:
