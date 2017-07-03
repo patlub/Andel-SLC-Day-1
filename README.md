@@ -14,6 +14,17 @@ n representing the upper limit
 Working installation of python 3. if you don't, you can refer to this
 [Intall Python 3](https://www.python.org/downloads/)
 
+##Usage
+
+import it first:
+
+`from Andela-SLC_Day-1 import generate_primes`
+
+then just call it directly, for example:
+
+`generate_primes(10)` returns  `[2, 3, 5, 7]`
+
+
 ## Running the Tests
 
 Navigate into the project directory and type:
